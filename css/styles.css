@@ -56,8 +56,58 @@ nav ul li a{
     font-size: 70px;
 }
 
-h2{
+.header-text h2{
     text-align: center;
-    font-size: 34px;
+     font-size: 34px; 
+}
+
+/* ---------------------------------- ABOUT ME SECTION -------------------------------- */
+.about{
+    background-color:#4e4c4c;
+    height: 80vh;
+
+}
+
+.about_text{
+    color: #fff;
+    margin:auto;
+    text-align: center;
+    width:50%;
     
 }
+
+.about_text h2{
+    font-size: 60px ;
+    padding-top: 6rem;
+}
+
+.about_text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+}
+.about_skills{
+    display: flex;
+    width: 50%;
+    color: #fff;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction:row ; */
+    margin: auto;
+    padding-top: 3%;
+}
+
+.about_skills h3{
+    padding-right: 5%;
+}
+
+.about_skills_h3--1{
+    border-bottom: 3px solid #fff;
+    width: 7%;
+    margin-right: 50px;
+}
+/* -------------------------------- MY PORFOLIO SECTION ------------------------------- */
+
+
+/* ---------------------------------- CONTACT SECTION -------------------------------- */
+
+/* -------------------------------------- FOOTER SECTION ----------------------------- */
