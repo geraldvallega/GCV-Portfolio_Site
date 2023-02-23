@@ -46,13 +46,14 @@ nav ul li a{
 
 .header-text{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
 }
 
 .header-text h1{
+    /* padding: 5px 0; */
     font-size: 70px;
 }
 
@@ -154,11 +155,16 @@ nav ul li a{
     border-radius: 10px;
 
  }
+
+ .portfolio_btn:hover{
+    color:blueviolet;
+    
+ }
 /* ---------------------------------- CONTACT SECTION -------------------------------- */
 .contact{
     background-color: #434d52;
     height: 100vh;
-    margin-top: 300px;
+    /* margin-top: 300px; */
     padding: 5%;
 }
 
@@ -214,7 +220,19 @@ margin-top: 15px;
 
 }
 
-.contact_btn--1:hover{
+.contact_btn--2{
+    display: block;
+    /* margin: 50px; */
+    border: 1px solid #336cff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    font-weight: 700;
+    color:#434d52;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.contact_btn--1:hover, .contact_btn--2:hover{
     background-color: coral;
 }
 
@@ -236,5 +254,13 @@ form input, form textarea{
     font-size: 18px;
     color: #fff;
     border: 6px;
+}
+footer p{
+    text-align: center;
+    font-weight: 500;
+    padding:20px 0;
+    height: fit-content;
+    background-color: #141414;
+    color: #fff;
 }
 /* -------------------------------------- FOOTER SECTION ----------------------------- */
