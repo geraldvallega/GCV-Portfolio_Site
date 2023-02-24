@@ -176,7 +176,6 @@ nav ul li a{
     font-size: 60px;
     color: #fff;
 }
-
 .contact-left{
     flex-basis: 35%;
 }
@@ -263,4 +262,28 @@ footer p{
     background-color: #141414;
     color: #fff;
 }
-/* -------------------------------------- FOOTER SECTION ----------------------------- */
+/* ************************************** FOOTER SECTION ***************************** */
+
+
+/* --------------------------------------- MEDIA QUERIES ----------------------------- */
+@media only screen and (max-width: 600px){
+    
+}
+/* --------------------------------------- HERO SECTION ------------------------------ */
+/* @media only screen and (max-width: 600px){
+    
+} */
+/* --------------------------------------- ABOUT SECTION ----------------------------- */
+/* @media only screen and (max-width: 600px){
+    
+} */
+/* --------------------------------------- PORTFOLIO SECTION ------------------------- */
+/* @media only screen and (max-width: 600px){
+    
+} */
+/* --------------------------------------- CONTACT SECTION ----------------------------- */
+/* @media only screen and (max-width: 600px){
+    
+} */
+
+/* --------------------------------------- FOOTER SECTION ----------------------------- */
