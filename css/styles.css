@@ -346,15 +346,17 @@ footer p {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(243, 208, 208, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(243, 208, 208, 0.75);
   }
+
+  .about_text{
+    /* color: #fff;
+    margin:auto;
+    text-align: center; */
+    width:80%;
+    
+}
   /* 
     
-    .about_text{
-        color: #fff;
-        margin:auto;
-        text-align: center;
-        width:50%;
-        
-    }
+    
     
     .about_text h2{
         font-size: 60px ;
