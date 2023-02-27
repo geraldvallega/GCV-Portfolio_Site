@@ -79,6 +79,10 @@ nav ul li a{
 
 }
 
+.about-img{
+    display: none;
+}
+
 .about_text{
     color: #fff;
     margin:auto;
@@ -280,8 +284,8 @@ footer p{
     .header {
       background-image: none;
       background-color: #4e4c4c;
-      /* height: 194;
-      width: 192; */
+      height: 194;
+      width: 192;
     }
 
     .header_image{
@@ -324,44 +328,24 @@ footer p{
     }
 
 }    
-    /* .header_brand{
     
-    }
-    
-    .header_brand_span{
-      
-    }
-    
-    nav{
-      
-    }
-    
-    nav ul li{
-        
-    }
-    
-    nav ul li a{
-        
-    }
-    
-    
-    
-    .header-text h1{
-     
-    }
-    
-    .header-text h2{
-   
-    } */
-
-/* --------------------------------------- HERO SECTION ------------------------------ */
-/* @media only screen and (max-width: 600px){
-    
-} */
 /* --------------------------------------- ABOUT SECTION ----------------------------- */
-/* @media only screen and (max-width: 600px){
-    
-} */
+  @media only screen and (max-width: 600px){
+    .about{
+        padding-top: 10%;
+        height: 150vh;
+       
+    }
+
+    .about-img{
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+       
+       
+    } 
+     
+} 
 /* --------------------------------------- PORTFOLIO SECTION ------------------------- */
 /* @media only screen and (max-width: 600px){
     
