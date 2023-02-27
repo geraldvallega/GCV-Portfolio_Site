@@ -359,13 +359,28 @@ footer p {
     font-size: 50px ;
     padding-top: 0;
 }
+
+.about_text p{
+  text-align: left;
+}
+
+.about_content{
+
+  color: white;
+}
+
+.about_content p{
+margin: 5% auto;
+margin-left: 10%;
+}
+
+.about_para--1{
+  color: #336cff;
+}
   /* 
     
     
-    .about_text p{
-        padding-top: 2rem;
-        line-height: 1.8rem;
-    }
+    
     .about_skills{
         display: flex;
         width: 50%;
