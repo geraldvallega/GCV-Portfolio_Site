@@ -354,14 +354,13 @@ footer p {
     width:80%;
     
 }
+
+.about_text h2{
+    font-size: 50px ;
+    padding-top: 0;
+}
   /* 
     
-    
-    
-    .about_text h2{
-        font-size: 60px ;
-        padding-top: 6rem;
-    }
     
     .about_text p{
         padding-top: 2rem;
