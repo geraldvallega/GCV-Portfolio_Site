@@ -179,7 +179,7 @@ nav ul li a {
 /* ---------------------------------- CONTACT SECTION -------------------------------- */
 .contact {
   background-color: #434d52;
-  height: 150vh;
+  height: 100vh;
   margin-top: 0;
   padding:40px;
   position: relative;
@@ -319,7 +319,7 @@ footer p {
     color: #fff;
   }
   .header-text--2 h2 {
-    /* text-align: center; */
+    text-align: center;
     font-size: 20px;
     font-weight: 200;
     line-height: 1.8;
