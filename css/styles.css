@@ -300,7 +300,7 @@ footer p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -70%);
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -318,7 +318,10 @@ footer p {
     transform: translate(-50%, -50%);
     color: #fff;
   }
-  .header-text--2 h2 {
+  .header-text--2 h1{
+    text-align: center;
+  }
+  .header-text--2 h2{
     text-align: center;
     font-size: 20px;
     font-weight: 200;
