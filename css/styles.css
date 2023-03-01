@@ -11,7 +11,7 @@ body {
 /* ---------------------------------- HERO SECTION ------------------------------------- */
 .header {
   height: 100vh;
-  background-image: url(../pexels-miguel-á-padriñán-1591060.jpg);
+  background-image: url(../images/pexels-miguel-á-padriñán-1591060.jpg);
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
@@ -86,9 +86,6 @@ nav ul li a {
   background-color: #4e4c4c;
   height: 80vh;
 }
-.about{
-  scroll-behavior: smooth;
-}
 
 .about-img {
   display: none;
@@ -141,10 +138,6 @@ nav ul li a {
   height: 150vh;
 }
 
-.portfolio{
-  scroll-behavior: smooth;
-}
-
 .portfolio_container {
   display: grid;
   padding: 5%;
@@ -190,10 +183,6 @@ nav ul li a {
   margin-top: 0;
   padding:40px;
   position: relative;
-}
-
-.contact{
-  scroll-behavior: smooth;
 }
 
 .contact_row {
