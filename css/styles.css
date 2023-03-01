@@ -391,28 +391,7 @@ margin-left: 10%;
 .about_para--1{
   color: #336cff;
 }
-  /* 
-    
-    
-    
-    .about_skills{
-        display: flex;
-        width: 50%;
-        color: #fff;
-        justify-content: center;
-        margin: auto;
-        padding-top: 3%;
-    }
-    
-    .about_skills h3{
-        padding-right: 5%;
-    }
-    
-    .about_skills_h3--1{
-        border-bottom: 3px solid #fff;
-        width: 7%;
-        margin-right: 50px;
-    } */
+  
 }
 /* --------------------------------------- PORTFOLIO SECTION ------------------------- */
  @media only screen and (max-width: 600px){
@@ -437,58 +416,108 @@ margin-left: 10%;
     font-size: 4rem;
   }
   
-  /* .portfolio {
-    height: 100vh;
-    padding: 50px 0;
-    text-align: center;
-    font-size: 60px;
-    background-color: #8d7f7f;
-    height: 150vh;
-  }
   
-  .portfolio_container {
-    display: grid;
-    padding: 5%;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    margin-top: 50px;
-    grid-gap: 40px;
-  }
-  
-  .portfolio h2 {
-    margin-top: 1%;
-    font-size: 60px;
-    color: #ffff;
-  }
-  
-  .portfolio_img {
-    border-radius: 10px;
-    position: relative;
-  }
-  .portfolio_img img {
-    width: 100%;
-    object-fit: cover;
-    height: 400px;
-    border-radius: 10px;
-  }
-  
-  .portfolio_btn {
-    background-color: #3385ff;
-    color: #fff;
-    height: 84px;
-    width: 287px;
-    text-decoration: none;
-    padding: 0.5% 1%;
-    border-radius: 10px;
-  }
-  
-  .portfolio_btn:hover {
-    color: blueviolet;
-  } */
-    
 } 
 /* --------------------------------------- CONTACT SECTION ----------------------------- */
- /* @media only screen and (max-width: 600px){
-    
-}  */
+ @media only screen and (max-width: 600px){
+  .contact{
+    height: 200vh;
+  }
+  .contact_row{
+    flex-direction: column;
+  }
+  .contact-left, .contact-right{
+    flex-basis: 100%;
+  }
+  /* 
+  
+  .contact_row {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact h2 {
+    font-size: 60px;
+    color: #fff;
+  }
+  .contact-left {
+    flex-basis: 35%;
+  }
+  
+  .contact-left p {
+    margin-top: 30px;
+  }
+  
+  .contact-left p i {
+    color: #3385ff;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .contact-left_icons {
+    margin-top: 15px;
+  }
+  
+  .contact-left_icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  .contact-left_icons a:hover {
+    color: crimson;
+    transform: translateY(-5px);
+  }
+  
+  .contact_btn--1 {
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #336cff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: aquamarine;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  .contact_btn--2 {
+    display: block;
+  
+    border: 1px solid #336cff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #434d52;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  .contact_btn--1:hover,
+  .contact_btn--2:hover {
+    background-color: coral;
+  }
+  
+  .contact-right {
+    flex-basis: 60%;
+  }
+  
+  .contact-right form {
+    width: 100%;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #1a82b6;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    border: 6px;
+  } */
+} 
 
 /* --------------------------------------- FOOTER SECTION ----------------------------- */
