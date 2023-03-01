@@ -420,10 +420,21 @@ margin-left: 10%;
   .portfolio{
     height: 180vh;
   }
+
+  .portfolio h2{
+   font-size: 50px;
+   padding-top: 0;
+  }
+
   .portfolio_img img{
     width: 70%;
     height: 200px;
     margin: 0 auto;
+    margin-bottom: 2%;
+  }
+
+  .portfolio_btn{
+    font-size: 4rem;
   }
   
   /* .portfolio {
